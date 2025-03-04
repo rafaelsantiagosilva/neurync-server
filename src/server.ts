@@ -7,7 +7,7 @@ async function startServer() {
     await configRoutes(app)
 
     app
-      .listen({ port: env.API_PORT })
+      .listen({ port: 3000 })
       .then(address => {
         console.log(`> Server is running on ${address}`)
         console.log(`> Documentation: ${address}/docs`)
