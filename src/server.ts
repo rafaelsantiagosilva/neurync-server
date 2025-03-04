@@ -11,7 +11,6 @@ async function startServer() {
       .then(address => {
         console.log(`> Server is running on ${address}`)
         console.log(`> Documentation: ${address}/docs`)
-        console.log('Hello Branches!')
       })
       .catch(error => {
         console.error(`> Error in server start: ${error}`)
